@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	
+	<bean id="banana" class="com.zhiyou.Banana">
+		<property name="name">帝王蕉</property>
+		<property name="age">18</property>
+		<property name="apple" ref="apple" ></property>
+	</bean>
+	<bean id="apple" class="com.zhiyou.Apple">
+		<property name="name">大苹果</property>
+	</bean>	
+	
+	<bean id="cat" class="com.zhiyou.Cat">
+		<property name="name">橘子</property>
+		<property name="age">2</property>
+		<property name="color">橘色</property>
+	</bean>	
+</beans>
