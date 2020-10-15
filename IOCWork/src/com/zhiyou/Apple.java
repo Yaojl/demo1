@@ -8,7 +8,7 @@ public class Apple{
 	
 
 	public void bloom() {
-		System.out.println("123");
+		System.out.println("1234567");
 	}
 
 	public void result() {
